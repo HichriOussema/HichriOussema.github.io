@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    
+    <link rel="icon" href="Resources/Images/profile.PNG" type="image/png">
+    <link rel="mask-icon" href="Resources/Images/profile.jpeg" color="#000000" sizes="any">
+    <link rel="apple-touch-icon" href="Resources/Images/profile.jpeg" sizes="any">
+    <link rel="shortcut icon" href="Resources/Images/profile.jpeg">
+    <link rel="manifest" href="Resources/manifest.json">
+    
+    <title>Oussema Hichri</title>
+    <meta name="apple-mobile-web-app-title" content="Oussema Hichri">
+    <meta name="description" content="Sr. iOS Developer 9+ years.">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <script src="script.js"></script>
+    
+  </head>
+  
+  <body>
+    <header>
+      <div id="title">
+        <img
+          src="Resources/Images/profile.jpeg"
+          alt="Oussema mouhib Hichri"
+          loading="lazy"
+        />
+        <h1>Oussema mouhib Hichri</h1>
+      </div>
+    </header>
+    <main>
+      <p>Quick rundown:</p>
+      <ul>
+        <li>Tunisian, born in 1994.</li>
+        <li>Living in Areeiro, Lisbon — Portugal.</li>
+        <li>iOS developer <span id="swiftDeveloperTime">since 2017</span>.</li>
+      </ul>
+
+      <p>Profile:</p>
+      <p style="margin-left:22px; margin-top:0;">
+        iOS developer with <span id="devYears">6</span>+ years of experience across diverse industries.<br>
+        Skilled in Swift, SwiftUI, MVVM, and Scrum — from social platforms to custom SDKs.<br>
+        Adept in Git, CI, and code review, thriving in dynamic team environments.<br>
+        Fueled by curiosity, always exploring the latest in Apple's ecosystem.
+      </p>
+
+      <p>Key skills:</p>
+      <ul>
+        <li>Mobile Software Development</li>
+        <li>Coding &amp; Scripting</li>
+        <li>Software Testing</li>
+        <li>Scrum &amp; Agile Methodologies</li>
+        <li>Continuous Integration</li>
+        <li>Project Architecture</li>
+        <li>Code Review</li>
+        <li>Teamwork &amp; Adaptability</li>
+      </ul>
+      
+      <p>Work experience:</p>
+      <table>
+        <tr>
+          <td>
+            🇵🇹
+            <a class="page-link" href="https://www.bryj.ai">Bryj.ai</a>
+            — iOS Developer
+          </td>
+          <td id="companyDate">07/2024 - Ongoing</td>
+        </tr>
+        <tr>
+          <td>
+            🇫🇷
+            Carrefour @ Fyld
+            — iOS Developer
+          </td>
+          <td id="companyDate">06/2023 - 06/2024</td>
+        </tr>
+        <tr>
+          <td>
+            🇵🇹
+            Aubay Portugal
+            — IT Consultant
+          </td>
+          <td id="companyDate">06/2022 - 06/2023</td>
+        </tr>
+        <tr>
+          <td>
+            🌍
+            Arabyads
+            — iOS Developer
+          </td>
+          <td id="companyDate">04/2021 - 12/2022</td>
+        </tr>
+        <tr>
+          <td>
+            🌍
+            Acid Labs
+            — iOS Developer
+          </td>
+          <td id="companyDate">02/2019 - 03/2021</td>
+        </tr>
+      </table>
+
+      
+      <p>My apps:</p>
+      <p style="margin-left:22px; margin-top:0;">
+        Something is cooking. Bits are being compiled, pixels are being pushed, and TestFlight is currently digesting a build. Stay tuned. 🚧
+      </p>
+      
+      <p>Find me on the web:</p>
+      <ul>
+        <li>
+          <a class="page-link" id="textLinkedIn" href="https://www.linkedin.com/in/hichri-oussema/">LinkedIn</a>
+          <i class="fas fa-copy btn_pasteboard btn4" onclick="copyText(2, 'textLinkedIn')"></i>
+        </li>
+        <li>
+          <a class="page-link" id="textGitHub" href="https://github.com/OussemaHichri">GitHub</a>
+          <i class="fas fa-copy btn_pasteboard btn3" onclick="copyText(2, 'textGitHub')"></i>
+        </li>
+        <li>
+          <a class="page-link" href="mailto:oussema.m.hichri@gmail.com">oussema.m.hichri@gmail.com</a>
+        </li>
+        <li>
+          <a class="page-link" href="Resources/Curriculum Vitae/CV - Oussema mouhib Hichri [enUS].pdf" download="CV - Oussema mouhib Hichri [enUS].pdf">Download CV</a>
+        </li>
+      </ul>
+    </main>
+    
+    <footer role="contentinfo">
+      <p id="text">
+        Inspired by <b>Andreas Kling</b>
+        <a class="page-link" href="https://awesomekling.com/"
+        aria-label="Visit Andreas Kling's website">https://awesomekling.com/</a>
+      </p>
+    </footer>
+    <div id="toast" class="toast">_toast_</div>
+  </body>  
+</html>
